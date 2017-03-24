@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<promocion>
+    <verificar>
+        
+    </verificar>
+    <!-- botellas -->    
+    <promo_botellas>
+        <estado>dec</estado>
+        <limite>1</limite>
+        <clase>in ('cerveza','jarra','p2Rfres')</clase> 
+        <id>botella</id>            
+    </promo_botellas>
+    <!-- fin botellas -->  
+    <!-- inicio 15 pz cervezas -->
+    <cervezas>
+        <estado>dec</estado>
+        <limite>15</limite>
+        <clase>in ('botella','jarra','p2Rfres')</clase>  
+        <id>cerveza</id> 
+    </cervezas>  
+    
+    <promo_jarra>
+        <estado>desc</estado>
+        <limite>3</limite>
+        <clase>in ('p2Rfres','botella','cerveza')</clase>
+        <limite_refre>1</limite_refre> <!-- No funcion> --> 
+        <id>jarra</id>  
+       
+    </promo_jarra>
+    <promo_refrsp2>
+        <estado>desc</estado>
+        <limite>16</limite>
+        <clase>in ('cerveza','jarra','botella')</clase>      
+        <id>p2Rfres</id>
+    </promo_refrsp2>
+    
+    <promo_hene>
+        <estado>des</estado>
+        <limite>16</limite>
+        <clase>in ('cerveza','botella')</clase>      
+        <id>henne</id>
+    </promo_hene>
+   
+    <comida_config>
+        <estado>desc</estado>
+        <limite>1</limite>
+        <clase>np</clase>
+        <id>comida</id>   
+        
+    </comida_config>
+    
+    <promo_refrescos>
+        <estado>Activo</estado>
+        <limite>5</limite>
+        <clase>in ('jugos')</clase>
+        <limite_jugos>2</limite_jugos> <!-- No funcion> -->  
+        <id>refrescos</id>  
+       
+    </promo_refrescos>
+    <refresco>
+        <id>REF-BN428</id>
+        <nombre>Agua</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-BN627</id>
+        <nombre>Zepelin</nombre>
+        
+    </refresco>
+  
+    <refresco>
+        <id>REF-ON363</id>
+        <nombre>Coca</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON364</id>
+        <nombre>Sprit</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON365</id>
+        <nombre>coca light</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON366</id>
+        <nombre>Manzana</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON390</id>
+        <nombre>ZUP</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON391</id>
+        <nombre>Ginger Ale</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON392</id>
+        <nombre>Mineral</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON393</id>
+        <nombre>Squiert</nombre>
+        
+    </refresco>
+    <refresco>
+        <id>REF-ON400</id>
+        <nombre>Quina</nombre>
+        
+    </refresco>
+    
+    <promo_jugo>
+        <estado>Activo</estado>
+        <limite>1</limite>
+        <clase>in ('refrescos')</clase>
+        <limite_refre>1</limite_refre> <!-- No funcion> --> 
+        <id>jugos</id>  
+       
+    </promo_jugo>
+    <jugo>
+        <id>EXT-ON339</id>
+        <nombre>Jarra de NARANJA</nombre>
+        
+    </jugo>
+    <jugo>
+        <id>EXT-ON339F</id>
+        <nombre> Jarra de PIÑA</nombre>
+        
+    </jugo>
+    <jugo>
+        <id>EXT-ON339O</id>
+        <nombre>Jarra de ARANDANO</nombre>
+        
+    </jugo>
+    <jugo>
+        <id>EXT-ON339T</id>
+        <nombre>Jarra de UVA</nombre>
+        
+    </jugo>
+   
+    
+   
+    
+ 
+    
+</promocion>

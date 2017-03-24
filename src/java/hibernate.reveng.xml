@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="restobarpv01"/>
+  <table-filter match-name="transladoproducto"/>
+  <table-filter match-name="traslado_mesa"/>
+  <table-filter match-name="venta_comanda"/>
+  <table-filter match-name="mesa_venta"/>
+  <table-filter match-name="altadia"/>
+  <table-filter match-name="barra"/>
+  <table-filter match-name="empleado"/>
+  <table-filter match-name="categoria"/>
+  <table-filter match-name="cancelacionproducto"/>
+  <table-filter match-name="producto"/>
+  <table-filter match-name="mesas"/>
+  <table-filter match-name="pagoscorte"/>
+  <table-filter match-name="cancelacion_mesa"/>
+  <table-filter match-name="traslado_comanda"/>
+  <table-filter match-name="adicionales"/>
+  <table-filter match-name="zona"/>
+  <table-filter match-name="cancelacion_comanda"/>
+  <table-filter match-name="puesto"/>
+  <table-filter match-name="descuento"/>
+  <table-filter match-name="comanda"/>
+</hibernate-reverse-engineering>

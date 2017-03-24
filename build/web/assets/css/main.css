@@ -1,0 +1,23 @@
+.kwicks li{  
+    float: left;  
+    width: 125px;  
+    height: 100px;  
+    margin-right: 5px;  
+}  
+#kwick1 {   
+    background-color: #53b388;  
+    background-image: url('images/meet.gif');  
+}  
+#kwick2 {  
+    background-color: #5a69a9;  
+    background-image: url('images/kwicks.gif');  
+}  
+#kwick3 {  
+    background-color: #c26468;  
+    background-image: url('images/for.gif');  
+}  
+#kwick4 {   
+    background-color: #bf7cc7;  
+    background-image: url('images/jquery.gif');  
+    margin-right: none;  
+}  

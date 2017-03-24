@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://104.154.213.93:3306/restobarpv01</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">seiter</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <!--<property name="hibernate.show_sql">true</property>-->
+    <property name="hibernate.connection.autocommit">false</property>
+    <property name="hibernate.connection.isolation">2</property>
+    <!-- <property name="hibernate.transaction.auto_close_session">true</property>-->
+    <property name="hibernate.use_identifier_rollback">true</property>
+    <property name="hibernate.connection.pool_size">5</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>    
+    <mapping class="com.mapping.CancelacionComanda"/>
+    <mapping class="com.mapping.Zona"/>
+    <mapping class="com.mapping.Comanda"/>
+    <mapping class="com.mapping.CancelacionMesa"/>
+    <mapping class="com.mapping.Empleado"/>
+    <mapping class="com.mapping.TrasladoMesa"/>
+    <mapping class="com.mapping.Pagoscorte"/>
+    <mapping class="com.mapping.Descuento"/>
+    <mapping class="com.mapping.TrasladoComanda"/>
+    <mapping class="com.mapping.Mesas"/>
+    <mapping class="com.mapping.Barra"/>
+    <mapping class="com.mapping.Puesto"/>
+    <mapping class="com.mapping.MesaVenta"/>
+    <mapping class="com.mapping.Categoria"/>
+    <mapping class="com.mapping.VentaComanda"/>
+    <mapping class="com.mapping.Altadia"/>
+    <mapping class="com.mapping.Transladoproducto"/>
+    <mapping class="com.mapping.Producto"/>
+    <mapping class="com.mapping.Adicionales"/>
+    <mapping class="com.mapping.Cancelacionproducto"/>
+    
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<promocion>
+    <verificar>
+        
+    </verificar>
+    <!-- botellas -->    
+    <promo_botellas>
+        <estado>des</estado>
+        <limite>1</limite>
+        <clase>in ('cerveza')</clase> 
+        <id>botella</id>            
+    </promo_botellas>
+    
+   
+    <!-- fin botellas -->  
+    <!-- inicio 15 pz cervezas -->
+    <cervezas>
+        <estado>des</estado>
+        <limite>15</limite>
+        <clase>in ('botella')</clase>  
+        <id>cerveza</id> 
+    </cervezas>  
+    
+    
+    <!-- fin cervezas -->
+    
+    <!-- inicio comida -->
+    <comida_config>
+        <estado>Activo</estado>
+        <limite>1</limite>
+        <clase>np</clase>
+        <id>comida</id>   
+        
+    </comida_config>
+    <comida>
+        <id>EXT-ON540</id>
+        <nombre>KILO ALITAS</nombre> 
+        
+    </comida>
+    <comida>
+        <id>EXT-ON541</id>
+        <nombre>CHICKEN TENDERS</nombre> 
+        
+    </comida>
+    
+    <comida>
+        <id>EXT-ON539</id>
+        <nombre>FAJITAS DE ARRACHERA</nombre> 
+        
+    </comida>
+    <comida>
+        <id>EXT-ON539P</id>
+        <nombre>PESCADITOS MACERADOS</nombre> 
+        
+    </comida>
+  
+    
+    <!-- fin comida -->
+    
+    <!-- inicio refrescos -->
+    <promo_refrescos>
+         <estado>des</estado>
+         <limite>16</limite>
+         <clase>in ('jugos')</clase>
+         <limite_jugos>2</limite_jugos> <!-- No funcion> -->  
+         <id>refrescos</id>  
+       
+    </promo_refrescos>
+   
+    
+    
+    <!-- fin refrescos -->
+    
+    <promo_jugo>
+         <estado>des</estado>
+         <limite>3</limite>
+         <clase>in ('refrescos')</clase>
+         <limite_refre>1</limite_refre> <!-- No funcion> --> 
+         <id>jugos</id>  
+       
+    </promo_jugo>
+   
+   
+   
+    
+ 
+    
+</promocion>

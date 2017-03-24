@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+a#rss {
+    display:block;
+    width:230px;
+    height:230px;
+    background:url(../img/pagoB.png);
+}
+a#rss:link { background-position: top left; }
+a#rss:hover { background-position: top right!important; }
+a#rss:active { background-position: bottom left!important; }
+a#rss:visited { background-position: bottom right; }
+
+a#rssc {
+    display:block;
+    width:230px;
+    height:230px;
+    background:url(../img/boleto.png);
+}
+a#rssc:link { background-position: top left; }
+a#rssc:hover { background-position: top right!important; }
+a#rssc:active { background-position: bottom left!important; }
+a#rssc:visited { background-position: bottom right; }
+
+a#rssb {
+    display:block;
+    width:230px;
+    height:230px;
+    background:url(../img/reservasB.png);
+}
+a#rssb:link { background-position: top left; }
+a#rssb:hover { background-position: top right!important; }
+a#rssb:active { background-position: bottom left!important; }
+a#rssb:visited { background-position: bottom right; }
